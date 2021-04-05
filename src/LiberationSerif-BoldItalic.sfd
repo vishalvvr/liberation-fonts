@@ -20,7 +20,7 @@ OS2Version: 3
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1123398000
-ModificationTime: 1608522329
+ModificationTime: 1617647288
 PfmFamily: 17
 TTFWeight: 700
 TTFWidth: 5
@@ -3902,7 +3902,7 @@ NameList: Adobe Glyph List
 DisplaySize: -36
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 8568 51 16
+WinInfo: 0 51 16
 BeginPrivate: 0
 EndPrivate
 AnchorClass2: "bottom-right" "'mark' Mark Positioning lookup 25-1" "top-right" "'mark' Mark Positioning lookup 25-1" "top" "'mark' Mark Positioning lookup 25-1" "bottom" "'mark' Mark Positioning lookup 25-1" "Anchor-0" "'mark' Mark Positioning in Hebrew lookup 0 subtable" "Anchor-1" "'mark' Mark Positioning in Hebrew lookup 2 subtable" "Anchor-2" "'mark' Mark Positioning in Hebrew lookup 3 subtable" "Anchor-3" "'mark' Mark Positioning in Hebrew lookup 4 subtable" "Anchor-4" "'mark' Mark Positioning in Hebrew lookup 4 subtable" "Anchor-5" "'mark' Mark Positioning in Hebrew lookup 5 subtable" "Anchor-6" "'mark' Mark Positioning in Hebrew lookup 5 subtable" "Anchor-7" "'mark' Mark Positioning in Hebrew lookup 10 subtable" "Anchor-8" "'mark' Mark Positioning in Hebrew lookup 11 subtable" "Anchor-9" "'mark' Mark Positioning in Hebrew lookup 12 subtable" "Anchor-10" "Mark to base attachment lookup 18 subtable" "Anchor-11" "Mark to base attachment lookup 19 subtable" "Anchor-12" "Mark to base attachment lookup 20 subtable" "Anchor-13" "Mark to base attachment lookup 21 subtable"
@@ -8492,8 +8492,8 @@ SplineSet
  -106 0 l 1,2,-1
  -92 73 l 1,3,-1
  11 100 l 1,4,-1
- 679 1352 l 1,5,-1
- 919 1352 l 1,6,-1
+ 679 1362 l 5,5,-1
+ 919 1362 l 5,6,-1
  1173 100 l 1,7,-1
  1282 73 l 1,8,-1
  1268 0 l 1,9,-1
@@ -8630,7 +8630,7 @@ IUP[x]
 IUP[y]
 EndTTInstrs
 AnchorPoint: "bottom" 576 -3 basechar 0
-AnchorPoint: "top" 752 1342 basechar 0
+AnchorPoint: "top" 752 1362 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -8736,7 +8736,7 @@ IUP[x]
 IUP[y]
 EndTTInstrs
 AnchorPoint: "bottom" 691 -19 basechar 0
-AnchorPoint: "top" 909 1361 basechar 0
+AnchorPoint: "top" 909 1391 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -8744,9 +8744,9 @@ SplineSet
  385 -20 385 -20 227.5 127.5 c 128,-1,2
  70 275 70 275 70 531 c 0,3,4
  70 777 70 777 174 964.5 c 128,-1,5
- 278 1152 278 1152 471 1254 c 128,-1,6
- 664 1356 664 1356 912 1356 c 0,7,8
- 1138 1356 1138 1356 1385 1304 c 1,9,-1
+ 278 1152 278 1152 471 1269 c 128,-1,6
+ 664 1386 664 1386 912 1386 c 4,7,8
+ 994 1386 994 1386 1385 1304 c 1,9,-1
  1332 967 l 1,10,-1
  1248 967 l 1,11,-1
  1248 1161 l 1,12,13
@@ -8772,70 +8772,8 @@ Encoding: 68 68 39
 Width: 1479
 GlyphClass: 2
 Flags: W
-TtInstrs:
-NPUSHB
- 34
- 0
- 12
- 3
- 21
- 21
- 4
- 20
- 12
- 20
- 25
- 24
- 23
- 21
- 95
- 89
- 23
- 3
- 96
- 89
- 23
- 3
- 18
- 20
- 95
- 89
- 18
- 6
- 96
- 89
- 18
- 18
- 160
- 25
- 1
-DELTAP1
-SVTCA[y-axis]
-MIAP[rnd]
-CALL
-CALL
-SVTCA[y-axis]
-RTG
-MIAP[rnd]
-CALL
-CALL
-SRP1
-SRP2
-SVTCA[x-axis]
-IP
-IP
-SRP1
-SHP[rp1]
-SHP[rp1]
-SRP1
-SHP[rp1]
-SRP1
-SHP[rp1]
-IUP[x]
-IUP[y]
-EndTTInstrs
 AnchorPoint: "bottom" 517 -5 basechar 0
-AnchorPoint: "top" 787 1343 basechar 0
+AnchorPoint: "top" 787 1353 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -8846,20 +8784,20 @@ SplineSet
  556 106 556 106 595 106 c 0,6,7
  839 106 839 106 979.5 285 c 128,-1,8
  1120 464 1120 464 1120 774 c 0,0,1
-742 1341 m 2,9,10
- 1079 1341 1079 1341 1255 1197.5 c 128,-1,11
- 1431 1054 1431 1054 1431 788 c 0,12,13
- 1431 549 1431 549 1329.5 368.5 c 128,-1,14
- 1228 188 1228 188 1038.5 92 c 128,-1,15
- 849 -4 849 -4 599 -4 c 1,16,-1
- 180 0 l 1,17,-1
- -15 0 l 1,18,-1
- -3 73 l 1,19,-1
- 174 100 l 1,20,-1
- 375 1242 l 1,21,-1
- 208 1268 l 1,22,-1
- 221 1341 l 1,23,-1
- 742 1341 l 2,9,10
+742 1351 m 6,9,10
+ 1071.61321356 1357.3265492 1071.61321356 1357.3265492 1255 1202.5 c 0,11,12
+ 1431 1054 1431 1054 1431 788 c 0,13,14
+ 1431 549 1431 549 1329.5 368.5 c 128,-1,15
+ 1228 188 1228 188 1038.5 92 c 128,-1,16
+ 849 -4 849 -4 599 -4 c 1,17,-1
+ 180 0 l 1,18,-1
+ -15 0 l 1,19,-1
+ -3 73 l 1,20,-1
+ 174 100 l 1,21,-1
+ 375 1242 l 1,22,-1
+ 208 1268 l 1,23,-1
+ 221 1341 l 1,24,-1
+ 742 1351 l 6,9,10
 EndSplineSet
 EndChar
 
@@ -8995,7 +8933,7 @@ IUP[x]
 IUP[y]
 EndTTInstrs
 AnchorPoint: "bottom" 577 -2 basechar 0
-AnchorPoint: "top" 763 1338 basechar 0
+AnchorPoint: "top" 763 1368 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -9163,7 +9101,7 @@ IUP[x]
 IUP[y]
 EndTTInstrs
 AnchorPoint: "bottom" 647 -13 basechar 0
-AnchorPoint: "top" 807 1342 basechar 0
+AnchorPoint: "top" 807 1372 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -9302,15 +9240,15 @@ IUP[x]
 IUP[y]
 EndTTInstrs
 AnchorPoint: "bottom" 684 -19 basechar 0
-AnchorPoint: "top" 893 1361 basechar 0
+AnchorPoint: "top" 893 1391 basechar 0
 LayerCount: 2
 Fore
 SplineSet
 70 523 m 0,0,1
  70 774 70 774 176.5 963 c 128,-1,2
- 283 1152 283 1152 478 1254 c 128,-1,3
- 673 1356 673 1356 924 1356 c 0,4,5
- 1170 1356 1170 1356 1399 1294 c 1,6,-1
+ 283 1152 283 1152 478 1269 c 128,-1,3
+ 673 1386 673 1386 924 1386 c 4,4,5
+ 1059 1386 1059 1386 1399 1294 c 1,6,-1
  1344 986 l 1,7,-1
  1260 986 l 1,8,-1
  1261 1160 l 1,9,10
@@ -9465,7 +9403,7 @@ IUP[x]
 IUP[y]
 EndTTInstrs
 AnchorPoint: "bottom" 692 0 basechar 0
-AnchorPoint: "top" 926 1340 basechar 0
+AnchorPoint: "top" 926 1370 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -9475,7 +9413,7 @@ SplineSet
  375 1241 l 1,3,-1
  208 1268 l 1,4,-1
  221 1341 l 1,5,-1
- 860 1341 l 1,6,-1
+ 860 1371 l 5,6,-1
  847 1268 l 1,7,-1
  670 1241 l 1,8,-1
  583 745 l 1,9,-1
@@ -9582,7 +9520,7 @@ IUP[x]
 IUP[y]
 EndTTInstrs
 AnchorPoint: "bottom" 300 -4 basechar 0
-AnchorPoint: "top" 536 1340 basechar 0
+AnchorPoint: "top" 536 1370 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -9668,7 +9606,7 @@ IUP[x]
 IUP[y]
 EndTTInstrs
 AnchorPoint: "bottom" 338 -19 basechar 0
-AnchorPoint: "top" 769 1341 basechar 0
+AnchorPoint: "top" 769 1371 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -9795,7 +9733,7 @@ IUP[x]
 IUP[y]
 EndTTInstrs
 AnchorPoint: "bottom" 647 3 basechar 0
-AnchorPoint: "top" 855 1341 basechar 0
+AnchorPoint: "top" 855 1371 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -9808,7 +9746,7 @@ SplineSet
  375 1242 l 1,6,-1
  208 1268 l 1,7,-1
  221 1341 l 1,8,-1
- 850 1341 l 1,9,-1
+ 850 1371 l 5,9,-1
  837 1268 l 1,10,-1
  670 1242 l 1,11,-1
  579 718 l 1,12,-1
@@ -9917,7 +9855,7 @@ IUP[x]
 IUP[y]
 EndTTInstrs
 AnchorPoint: "bottom" 571 1 basechar 0
-AnchorPoint: "top" 801 1339 basechar 0
+AnchorPoint: "top" 801 1379 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -10059,7 +9997,7 @@ IUP[x]
 IUP[y]
 EndTTInstrs
 AnchorPoint: "bottom" 720 -1 basechar 0
-AnchorPoint: "top" 975 1335 basechar 0
+AnchorPoint: "top" 975 1375 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -10185,7 +10123,7 @@ IUP[x]
 IUP[y]
 EndTTInstrs
 AnchorPoint: "bottom" 589 -1 basechar 0
-AnchorPoint: "top" 843 1342 basechar 0
+AnchorPoint: "top" 843 1392 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -10261,7 +10199,7 @@ IUP[x]
 IUP[y]
 EndTTInstrs
 AnchorPoint: "bottom" 632 -22 basechar 0
-AnchorPoint: "top" 866 1352 basechar 0
+AnchorPoint: "top" 866 1392 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -10281,9 +10219,9 @@ SplineSet
  216 117 216 117 145 241.5 c 128,-1,17
  74 366 74 366 74 524 c 0,18,19
  74 766 74 766 172 957.5 c 128,-1,20
- 270 1149 270 1149 447.5 1252.5 c 128,-1,21
- 625 1356 625 1356 856 1356 c 0,22,23
- 1022 1356 1022 1356 1150.5 1287.5 c 128,-1,24
+ 270 1149 270 1149 447.5 1272.5 c 128,-1,21
+ 625 1396 625 1396 856 1396 c 4,22,23
+ 1022 1396 1022 1396 1150.5 1307.5 c 128,-1,24
  1279 1219 1279 1219 1350 1094.5 c 128,-1,25
  1421 970 1421 970 1421 812 c 0,26,27
  1421 572 1421 572 1320.5 375.5 c 128,-1,28
@@ -10297,88 +10235,8 @@ Encoding: 80 80 51
 Width: 1251
 GlyphClass: 2
 Flags: W
-TtInstrs:
-NPUSHB
- 41
- 3
- 22
- 22
- 27
- 8
- 9
- 7
- 7
- 10
- 10
- 16
- 15
- 15
- 26
- 27
- 9
- 8
- 96
- 89
- 9
- 9
- 13
- 18
- 18
- 16
- 95
- 89
- 18
- 7
- 96
- 89
- 18
- 3
- 10
- 15
- 13
- 15
- 95
- 89
- 13
- 18
-SVTCA[y-axis]
-MIAP[rnd]
-CALL
-SRP1
-SVTCA[y-axis]
-SHP[rp1]
-RTG
-MIAP[rnd]
-CALL
-CALL
-SRP1
-SRP2
-SVTCA[y-axis]
-IP
-RTG
-MDAP[rnd]
-CALL
-SRP1
-SRP2
-SVTCA[x-axis]
-IP
-SRP1
-SHP[rp1]
-SHP[rp1]
-SRP1
-SHP[rp1]
-SRP2
-IP
-IP
-SRP1
-SHP[rp1]
-SRP1
-SHP[rp1]
-IUP[x]
-IUP[y]
-EndTTInstrs
 AnchorPoint: "bottom" 595 -5 basechar 0
-AnchorPoint: "top" 761 1344 basechar 0
+AnchorPoint: "top" 761 1354 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -10400,11 +10258,11 @@ SplineSet
  374 1242 l 1,16,-1
  206 1268 l 1,17,-1
  218 1341 l 1,18,-1
- 749 1341 l 2,19,20
- 1003 1341 1003 1341 1133.5 1251 c 128,-1,21
- 1264 1161 1264 1161 1264 983 c 0,22,23
- 1264 766 1264 766 1115 646 c 128,-1,24
- 966 526 966 526 687 526 c 2,25,-1
+ 749 1351 l 6,19,20
+ 997 1356 997 1356 1133.5 1256 c 0,21,22
+ 1264 1161 1264 1161 1264 983 c 0,23,24
+ 1264 766 1264 766 1115 646 c 128,-1,25
+ 966 526 966 526 687 526 c 2,26,-1
  544 526 l 1,9,-1
 EndSplineSet
 Kerns2: 36 -152 "'kern' Horizontal Kerning lookup 16 subtable" 17 -264 "'kern' Horizontal Kerning lookup 16 subtable" 15 -264 "'kern' Horizontal Kerning lookup 16 subtable" 3 -76 "'kern' Horizontal Kerning lookup 16 subtable"
@@ -10479,7 +10337,7 @@ IUP[x]
 IUP[y]
 EndTTInstrs
 AnchorPoint: "bottom" 804 -319 basechar 0
-AnchorPoint: "top" 833 1355 basechar 0
+AnchorPoint: "top" 833 1385 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -10500,9 +10358,9 @@ SplineSet
  202 133 202 133 138 254.5 c 128,-1,20
  74 376 74 376 74 524 c 0,21,22
  74 766 74 766 172 957.5 c 128,-1,23
- 270 1149 270 1149 447.5 1252.5 c 128,-1,24
- 625 1356 625 1356 856 1356 c 0,25,26
- 1022 1356 1022 1356 1150.5 1287.5 c 128,-1,27
+ 270 1149 270 1149 447.5 1267.5 c 128,-1,24
+ 625 1386 625 1386 856 1386 c 4,25,26
+ 1022 1386 1022 1386 1150.5 1302.5 c 128,-1,27
  1279 1219 1279 1219 1350 1094.5 c 128,-1,28
  1421 970 1421 970 1421 812 c 0,0,1
 1120 843 m 256,29,30
@@ -10524,109 +10382,8 @@ Encoding: 82 82 53
 Width: 1366
 GlyphClass: 2
 Flags: W
-TtInstrs:
-NPUSHB
- 51
- 30
- 0
- 29
- 29
- 1
- 1
- 7
- 6
- 21
- 16
- 16
- 20
- 17
- 17
- 25
- 13
- 6
- 13
- 31
- 32
- 16
- 0
- 30
- 30
- 0
- 96
- 89
- 30
- 30
- 4
- 9
- 9
- 29
- 96
- 89
- 9
- 7
- 95
- 89
- 9
- 3
- 17
- 1
- 6
- 4
- 6
- 95
- 89
- 20
- 4
- 18
-SVTCA[y-axis]
-MIAP[rnd]
-SHP[rp1]
-CALL
-SRP1
-SVTCA[y-axis]
-SHP[rp1]
-SHP[rp1]
-RTG
-MIAP[rnd]
-CALL
-CALL
-SRP1
-SRP2
-SVTCA[y-axis]
-IP
-RTG
-MDAP[rnd]
-CALL
-SRP1
-SRP2
-SVTCA[y-axis]
-IP
-SRP1
-SRP2
-SVTCA[x-axis]
-IP
-IP
-SRP1
-SHP[rp1]
-SHP[rp1]
-SRP1
-SHP[rp1]
-SHP[rp1]
-SRP1
-SHP[rp1]
-SRP1
-SHP[rp1]
-SHP[rp1]
-SRP1
-SHP[rp1]
-SRP2
-IP
-IP
-IUP[x]
-IUP[y]
-EndTTInstrs
 AnchorPoint: "bottom" 626 2 basechar 0
-AnchorPoint: "top" 723 1338 basechar 0
+AnchorPoint: "top" 723 1348 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -10640,25 +10397,25 @@ SplineSet
  374 1242 l 1,7,-1
  207 1268 l 1,8,-1
  220 1341 l 1,9,-1
- 755 1341 l 2,10,11
- 1017 1341 1017 1341 1143 1258 c 128,-1,12
- 1269 1175 1269 1175 1269 1003 c 0,13,14
- 1269 847 1269 847 1184.5 743 c 128,-1,15
- 1100 639 1100 639 940 596 c 1,16,-1
- 1141 100 l 1,17,-1
- 1288 73 l 1,18,-1
- 1276 0 l 1,19,-1
- 876 0 l 1,20,-1
- 668 568 l 1,21,-1
+ 755 1351 l 6,10,11
+ 1010 1356 1010 1356 1143 1263 c 0,12,13
+ 1269 1175 1269 1175 1269 1003 c 0,14,15
+ 1269 847 1269 847 1184.5 743 c 128,-1,16
+ 1100 639 1100 639 940 596 c 1,17,-1
+ 1141 100 l 1,18,-1
+ 1288 73 l 1,19,-1
+ 1276 0 l 1,20,-1
+ 876 0 l 1,21,-1
+ 668 568 l 1,22,-1
  552 568 l 1,0,-1
-626 678 m 2,22,23
- 790 678 790 678 883 759.5 c 128,-1,24
- 976 841 976 841 976 987 c 0,25,26
- 976 1117 976 1117 915.5 1174 c 128,-1,27
- 855 1231 855 1231 738 1231 c 2,28,-1
- 669 1231 l 1,29,-1
- 571 678 l 1,30,-1
- 626 678 l 2,22,23
+626 678 m 2,23,24
+ 790 678 790 678 883 759.5 c 128,-1,25
+ 976 841 976 841 976 987 c 0,26,27
+ 976 1117 976 1117 915.5 1174 c 128,-1,28
+ 855 1231 855 1231 738 1231 c 2,29,-1
+ 669 1231 l 1,30,-1
+ 571 678 l 1,31,-1
+ 626 678 l 2,23,24
 EndSplineSet
 Kerns2: 92 -37 "'kern' Horizontal Kerning lookup 16 subtable" 60 -37 "'kern' Horizontal Kerning lookup 16 subtable" 58 -37 "'kern' Horizontal Kerning lookup 16 subtable" 57 -37 "'kern' Horizontal Kerning lookup 16 subtable"
 EndChar
@@ -10781,7 +10538,7 @@ IUP[x]
 IUP[y]
 EndTTInstrs
 AnchorPoint: "bottom" 414 -18 basechar 0
-AnchorPoint: "top" 693 1354 basechar 0
+AnchorPoint: "top" 693 1394 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -10893,7 +10650,7 @@ IUP[x]
 IUP[y]
 EndTTInstrs
 AnchorPoint: "bottom" 532 2 basechar 0
-AnchorPoint: "top" 760 1342 basechar 0
+AnchorPoint: "top" 760 1372 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -10927,98 +10684,34 @@ Encoding: 85 85 56
 Width: 1479
 GlyphClass: 2
 Flags: W
-TtInstrs:
-NPUSHB
- 31
- 4
- 7
- 7
- 28
- 25
- 12
- 13
- 13
- 19
- 18
- 25
- 18
- 29
- 30
- 22
- 9
- 97
- 89
- 22
- 19
- 18
- 13
- 4
- 28
- 1
- 28
- 95
- 89
- 15
- 1
- 3
-SVTCA[y-axis]
-MIAP[rnd]
-SHP[rp1]
-CALL
-SRP1
-SVTCA[y-axis]
-SHP[rp1]
-SHP[rp1]
-SHP[rp1]
-RTG
-MIAP[rnd]
-CALL
-SRP1
-SRP2
-SVTCA[x-axis]
-IP
-IP
-SRP1
-SHP[rp1]
-SHP[rp1]
-SRP1
-SHP[rp1]
-SRP1
-SHP[rp1]
-SHP[rp1]
-SRP1
-SHP[rp1]
-IUP[x]
-IUP[y]
-EndTTInstrs
 AnchorPoint: "bottom" 664 -19 basechar 0
-AnchorPoint: "top" 859 1339 basechar 0
+AnchorPoint: "top" 859 1349 basechar 0
 LayerCount: 2
 Fore
 SplineSet
 167 1268 m 1,0,-1
  180 1341 l 1,1,-1
- 799 1341 l 1,2,-1
+ 799 1351 l 5,2,-1
  786 1268 l 1,3,-1
  609 1242 l 1,4,-1
  496 586 l 2,5,6
- 473 456 473 456 473 389 c 0,7,8
+ 473 452 473 452 473 389 c 0,7,8
  473 122 473 122 740 122 c 0,9,10
- 901 122 901 122 1003.5 209 c 128,-1,11
- 1106 296 1106 296 1136 463 c 2,12,-1
- 1273 1242 l 1,13,-1
- 1098 1268 l 1,14,-1
- 1111 1341 l 1,15,-1
- 1567 1341 l 1,16,-1
- 1554 1268 l 1,17,-1
- 1397 1242 l 1,18,-1
- 1262 471 l 2,19,20
- 1217 218 1217 218 1074.5 99.5 c 128,-1,21
- 932 -19 932 -19 689 -19 c 0,22,23
- 445 -19 445 -19 312.5 89.5 c 128,-1,24
- 180 198 180 198 180 399 c 0,25,26
- 180 463 180 463 200 583 c 2,27,-1
- 314 1242 l 1,28,-1
+ 901 122 901 122 1003.5 209 c 0,11,12
+ 1106.77208129 296.806214042 1106.77208129 296.806214042 1136 463 c 2,13,-1
+ 1273 1242 l 1,14,-1
+ 1098 1268 l 1,15,-1
+ 1111 1341 l 1,16,-1
+ 1567 1341 l 1,17,-1
+ 1554 1268 l 1,18,-1
+ 1397 1242 l 1,19,-1
+ 1262 471 l 2,20,21
+ 1218 219 1218 219 1074.5 99.5 c 0,22,23
+ 932 -19 932 -19 689 -19 c 0,24,25
+ 445 -19 445 -19 312.5 89.5 c 128,-1,26
+ 180 198 180 198 180 399 c 0,27,28
+ 180 467.385964912 180 467.385964912 200 583 c 2,29,-1
+ 314 1242 l 1,30,-1
  167 1268 l 1,0,-1
 EndSplineSet
 EndChar
@@ -11479,7 +11172,7 @@ IUP[x]
 IUP[y]
 EndTTInstrs
 AnchorPoint: "bottom" 584 -33 basechar 0
-AnchorPoint: "top" 787 1335 basechar 0
+AnchorPoint: "top" 787 1365 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -11491,7 +11184,7 @@ SplineSet
  225 1241 l 1,5,-1
  120 1268 l 1,6,-1
  132 1341 l 1,7,-1
- 679 1341 l 1,8,-1
+ 679 1371 l 5,8,-1
  667 1268 l 1,9,-1
  523 1241 l 1,10,-1
  725 362 l 1,11,-1
@@ -11579,7 +11272,7 @@ IUP[x]
 IUP[y]
 EndTTInstrs
 AnchorPoint: "bottom" 822 -27 basechar 0
-AnchorPoint: "top" 1083 1344 basechar 0
+AnchorPoint: "top" 1083 1374 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -11713,8 +11406,8 @@ SplineSet
  336 1242 l 1,7,-1
  190 1268 l 1,8,-1
  203 1341 l 1,9,-1
- 816 1341 l 1,10,-1
- 803 1268 l 1,11,-1
+ 816 1342 l 5,10,-1
+ 803 1269 l 5,11,-1
  638 1242 l 1,12,-1
  781 875 l 1,13,-1
  1097 1242 l 1,14,-1
@@ -12082,7 +11775,7 @@ IUP[x]
 IUP[y]
 EndTTInstrs
 AnchorPoint: "bottom" 549 -1 basechar 0
-AnchorPoint: "top" 749 1339 basechar 0
+AnchorPoint: "top" 749 1369 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -12096,7 +11789,7 @@ SplineSet
  251 1242 l 1,7,-1
  105 1268 l 1,8,-1
  118 1341 l 1,9,-1
- 754 1341 l 1,10,-1
+ 754 1371 l 5,10,-1
  741 1268 l 1,11,-1
  556 1242 l 1,12,-1
  734 686 l 1,13,-1
@@ -12177,7 +11870,7 @@ IUP[x]
 IUP[y]
 EndTTInstrs
 AnchorPoint: "bottom" 524 3 basechar 0
-AnchorPoint: "top" 720 1343 basechar 0
+AnchorPoint: "top" 720 1373 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -17082,31 +16775,6 @@ Encoding: 220 220 104
 Width: 1479
 GlyphClass: 2
 Flags: W
-TtInstrs:
-NPUSHB
- 13
- 2
- 1
- 29
- 5
- 38
- 2
- 1
- 101
- 44
- 38
- 0
- 16
- 37
-SVTCA[x-axis]
-CALL
-SHC[rp1]
-SHC[rp1]
-SVTCA[y-axis]
-CALL
-SHC[rp1]
-SHC[rp1]
-EndTTInstrs
 LayerCount: 2
 Fore
 Refer: 56 85 N 1 0 0 1 0 0 3
@@ -28829,27 +28497,6 @@ Encoding: 218 218 207
 Width: 1479
 GlyphClass: 2
 Flags: W
-TtInstrs:
-NPUSHB
- 11
- 1
- 29
- 5
- 38
- 1
- 173
- 29
- 32
- 0
- 16
- 37
-SVTCA[x-axis]
-CALL
-SHC[rp1]
-SVTCA[y-axis]
-CALL
-SHC[rp1]
-EndTTInstrs
 LayerCount: 2
 Fore
 Refer: 56 85 N 1 0 0 1 0 0 3
@@ -28861,27 +28508,6 @@ Encoding: 219 219 208
 Width: 1479
 GlyphClass: 2
 Flags: W
-TtInstrs:
-NPUSHB
- 11
- 1
- 29
- 5
- 38
- 1
- 86
- 29
- 33
- 0
- 16
- 37
-SVTCA[x-axis]
-CALL
-SHC[rp1]
-SVTCA[y-axis]
-CALL
-SHC[rp1]
-EndTTInstrs
 LayerCount: 2
 Fore
 Refer: 56 85 N 1 0 0 1 0 0 3
@@ -28893,28 +28519,6 @@ Encoding: 217 217 209
 Width: 1479
 GlyphClass: 2
 Flags: W
-TtInstrs:
-PUSHB_5
- 1
- 29
- 5
- 38
- 1
-PUSHW_1
- -18
-PUSHB_5
- 30
- 33
- 0
- 16
- 37
-SVTCA[x-axis]
-CALL
-SHC[rp1]
-SVTCA[y-axis]
-CALL
-SHC[rp1]
-EndTTInstrs
 LayerCount: 2
 Fore
 Refer: 56 85 N 1 0 0 1 0 0 3
@@ -34854,27 +34458,6 @@ Encoding: 270 270 259
 Width: 1479
 GlyphClass: 2
 Flags: W
-TtInstrs:
-NPUSHB
- 11
- 2
- 26
- 5
- 38
- 2
- 160
- 28
- 24
- 18
- 12
- 37
-SVTCA[x-axis]
-CALL
-SHC[rp1]
-SVTCA[y-axis]
-CALL
-SHC[rp1]
-EndTTInstrs
 LayerCount: 2
 Fore
 Refer: 39 68 N 1 0 0 1 0 0 3
@@ -35489,27 +35072,6 @@ Encoding: 340 340 278
 Width: 1366
 GlyphClass: 2
 Flags: W
-TtInstrs:
-NPUSHB
- 11
- 2
- 31
- 5
- 38
- 2
- 245
- 31
- 34
- 4
- 18
- 37
-SVTCA[x-axis]
-CALL
-SHC[rp1]
-SVTCA[y-axis]
-CALL
-SHC[rp1]
-EndTTInstrs
 LayerCount: 2
 Fore
 Refer: 53 82 N 1 0 0 1 0 0 3
@@ -35553,27 +35115,6 @@ Encoding: 344 344 280
 Width: 1366
 GlyphClass: 2
 Flags: W
-TtInstrs:
-NPUSHB
- 11
- 2
- 33
- 5
- 38
- 2
- 207
- 35
- 31
- 4
- 18
- 37
-SVTCA[x-axis]
-CALL
-SHC[rp1]
-SVTCA[y-axis]
-CALL
-SHC[rp1]
-EndTTInstrs
 LayerCount: 2
 Fore
 Refer: 53 82 N 1 0 0 1 0 0 3
@@ -35785,31 +35326,6 @@ Encoding: 366 366 288
 Width: 1479
 GlyphClass: 2
 Flags: W
-TtInstrs:
-NPUSHB
- 13
- 2
- 1
- 29
- 5
- 38
- 2
- 1
- 73
- 32
- 38
- 0
- 16
- 37
-SVTCA[x-axis]
-CALL
-SHC[rp1]
-SHC[rp1]
-SVTCA[y-axis]
-CALL
-SHC[rp1]
-SHC[rp1]
-EndTTInstrs
 LayerCount: 2
 Fore
 Refer: 56 85 N 1 0 0 1 0 0 3
@@ -35857,31 +35373,6 @@ Encoding: 368 368 290
 Width: 1479
 GlyphClass: 2
 Flags: W
-TtInstrs:
-NPUSHB
- 13
- 2
- 1
- 29
- 5
- 38
- 2
- 1
- 155
- 29
- 38
- 0
- 16
- 37
-SVTCA[x-axis]
-CALL
-SHC[rp1]
-SHC[rp1]
-SVTCA[y-axis]
-CALL
-SHC[rp1]
-SHC[rp1]
-EndTTInstrs
 LayerCount: 2
 Fore
 Refer: 56 85 N 1 0 0 1 0 0 3
@@ -48587,29 +48078,6 @@ Encoding: 342 342 448
 Width: 1366
 GlyphClass: 2
 Flags: W
-TtInstrs:
-PUSHB_2
- 2
- 37
-PUSHW_1
- -64
-PUSHB_3
- 13
- 15
- 72
-PUSHW_1
- -70
-PUSHB_5
- 37
- 34
- 4
- 18
- 37
-SVTCA[x-axis]
-CALL
-CALL
-SHC[rp1]
-EndTTInstrs
 LayerCount: 2
 Fore
 Refer: 53 82 N 1 0 0 1 0 0 3
@@ -49005,27 +48473,6 @@ Encoding: 360 360 454
 Width: 1479
 GlyphClass: 2
 Flags: W
-TtInstrs:
-NPUSHB
- 11
- 1
- 29
- 5
- 38
- 1
- 74
- 37
- 48
- 0
- 16
- 37
-SVTCA[x-axis]
-CALL
-SHC[rp1]
-SVTCA[y-axis]
-CALL
-SHC[rp1]
-EndTTInstrs
 LayerCount: 2
 Fore
 Refer: 56 85 N 1 0 0 1 0 0 3
@@ -49069,27 +48516,6 @@ Encoding: 362 362 456
 Width: 1479
 GlyphClass: 2
 Flags: W
-TtInstrs:
-NPUSHB
- 11
- 1
- 29
- 5
- 38
- 1
- 65
- 29
- 31
- 0
- 16
- 37
-SVTCA[x-axis]
-CALL
-SHC[rp1]
-SVTCA[y-axis]
-CALL
-SHC[rp1]
-EndTTInstrs
 LayerCount: 2
 Fore
 Refer: 56 85 N 1 0 0 1 0 0 3
@@ -49133,27 +48559,6 @@ Encoding: 364 364 458
 Width: 1479
 GlyphClass: 2
 Flags: W
-TtInstrs:
-NPUSHB
- 11
- 1
- 29
- 5
- 38
- 1
- 77
- 32
- 40
- 0
- 16
- 37
-SVTCA[x-axis]
-CALL
-SHC[rp1]
-SVTCA[y-axis]
-CALL
-SHC[rp1]
-EndTTInstrs
 LayerCount: 2
 Fore
 Refer: 56 85 N 1 0 0 1 0 0 3
@@ -69506,16 +68911,6 @@ Encoding: 7910 7910 803
 Width: 1479
 GlyphClass: 2
 Flags: W
-TtInstrs:
-PUSHB_4
- 1
- 39
- 5
- 38
-SVTCA[y-axis]
-CALL
-SHC[rp1]
-EndTTInstrs
 LayerCount: 2
 Fore
 Refer: 56 85 N 1 0 0 1 0 0 3
@@ -69939,16 +69334,6 @@ Encoding: 467 467 827
 Width: 1479
 GlyphClass: 2
 Flags: W
-TtInstrs:
-PUSHB_4
- 1
- 32
- 5
- 38
-SVTCA[y-axis]
-CALL
-SHC[rp1]
-EndTTInstrs
 LayerCount: 2
 Fore
 Refer: 56 85 N 1 0 0 1 0 0 3
@@ -69981,20 +69366,6 @@ Encoding: 469 469 829
 Width: 1479
 GlyphClass: 2
 Flags: W
-TtInstrs:
-PUSHB_6
- 3
- 2
- 1
- 45
- 5
- 38
-SVTCA[y-axis]
-CALL
-SHC[rp1]
-SHC[rp1]
-SHC[rp1]
-EndTTInstrs
 LayerCount: 2
 Fore
 Refer: 56 85 N 1 0 0 1 0 0 3
@@ -70018,20 +69389,6 @@ Encoding: 471 471 831
 Width: 1479
 GlyphClass: 2
 Flags: W
-TtInstrs:
-PUSHB_6
- 3
- 2
- 1
- 41
- 5
- 38
-SVTCA[y-axis]
-CALL
-SHC[rp1]
-SHC[rp1]
-SHC[rp1]
-EndTTInstrs
 LayerCount: 2
 Fore
 Refer: 56 85 N 1 0 0 1 0 0 3
@@ -70055,20 +69412,6 @@ Encoding: 473 473 833
 Width: 1479
 GlyphClass: 2
 Flags: W
-TtInstrs:
-PUSHB_6
- 3
- 2
- 1
- 41
- 5
- 38
-SVTCA[y-axis]
-CALL
-SHC[rp1]
-SHC[rp1]
-SHC[rp1]
-EndTTInstrs
 LayerCount: 2
 Fore
 Refer: 56 85 N 1 0 0 1 0 0 3
@@ -70121,20 +69464,6 @@ Encoding: 475 475 835
 Width: 1479
 GlyphClass: 2
 Flags: W
-TtInstrs:
-PUSHB_6
- 3
- 2
- 1
- 47
- 5
- 38
-SVTCA[y-axis]
-CALL
-SHC[rp1]
-SHC[rp1]
-SHC[rp1]
-EndTTInstrs
 LayerCount: 2
 Fore
 Refer: 56 85 N 1 0 0 1 0 0 3
@@ -80732,16 +80061,6 @@ Encoding: 452 452 927
 Width: 2730
 GlyphClass: 2
 Flags: W
-TtInstrs:
-PUSHB_4
- 3
- 46
- 5
- 38
-SVTCA[y-axis]
-CALL
-SHC[rp1]
-EndTTInstrs
 LayerCount: 2
 Fore
 Refer: 39 68 N 1 0 0 1 0 0 2
@@ -82497,18 +81816,6 @@ Encoding: 528 528 982
 Width: 1366
 GlyphClass: 2
 Flags: W
-TtInstrs:
-PUSHB_5
- 3
- 2
- 42
- 5
- 38
-SVTCA[y-axis]
-CALL
-SHC[rp1]
-SHC[rp1]
-EndTTInstrs
 LayerCount: 2
 Fore
 Refer: 53 82 N 1 0 0 1 0 0 3
@@ -82543,16 +81850,6 @@ Encoding: 530 530 984
 Width: 1366
 GlyphClass: 2
 Flags: W
-TtInstrs:
-PUSHB_4
- 2
- 44
- 5
- 38
-SVTCA[y-axis]
-CALL
-SHC[rp1]
-EndTTInstrs
 LayerCount: 2
 Fore
 Refer: 53 82 N 1 0 0 1 0 0 3
@@ -82585,18 +81882,6 @@ Encoding: 532 532 986
 Width: 1479
 GlyphClass: 2
 Flags: W
-TtInstrs:
-PUSHB_5
- 2
- 1
- 40
- 5
- 38
-SVTCA[y-axis]
-CALL
-SHC[rp1]
-SHC[rp1]
-EndTTInstrs
 LayerCount: 2
 Fore
 Refer: 56 85 N 1 0 0 1 0 0 3
@@ -82631,16 +81916,6 @@ Encoding: 534 534 988
 Width: 1479
 GlyphClass: 2
 Flags: W
-TtInstrs:
-PUSHB_4
- 1
- 42
- 5
- 38
-SVTCA[y-axis]
-CALL
-SHC[rp1]
-EndTTInstrs
 LayerCount: 2
 Fore
 Refer: 56 85 N 1 0 0 1 0 0 3
@@ -134131,16 +133406,6 @@ Encoding: 7690 7690 1601
 Width: 1479
 GlyphClass: 2
 Flags: W
-TtInstrs:
-PUSHB_4
- 2
- 33
- 5
- 38
-SVTCA[y-axis]
-CALL
-SHC[rp1]
-EndTTInstrs
 LayerCount: 2
 Fore
 Refer: 39 68 N 1 0 0 1 0 0 3
@@ -135322,16 +134587,6 @@ Encoding: 7764 7764 1675
 Width: 1251
 GlyphClass: 2
 Flags: W
-TtInstrs:
-PUSHB_4
- 2
- 31
- 5
- 38
-SVTCA[y-axis]
-CALL
-SHC[rp1]
-EndTTInstrs
 LayerCount: 2
 Fore
 Refer: 51 80 N 1 0 0 1 0 0 3
@@ -135364,16 +134619,6 @@ Encoding: 7766 7766 1677
 Width: 1251
 GlyphClass: 2
 Flags: W
-TtInstrs:
-PUSHB_4
- 2
- 35
- 5
- 38
-SVTCA[y-axis]
-CALL
-SHC[rp1]
-EndTTInstrs
 LayerCount: 2
 Fore
 Refer: 51 80 N 1 0 0 1 0 0 3
@@ -135406,16 +134651,6 @@ Encoding: 7768 7768 1679
 Width: 1366
 GlyphClass: 2
 Flags: W
-TtInstrs:
-PUSHB_4
- 2
- 40
- 5
- 38
-SVTCA[y-axis]
-CALL
-SHC[rp1]
-EndTTInstrs
 LayerCount: 2
 Fore
 Refer: 53 82 N 1 0 0 1 0 0 3
@@ -135470,16 +134705,6 @@ Encoding: 7772 7772 1683
 Width: 1366
 GlyphClass: 2
 Flags: W
-TtInstrs:
-PUSHB_4
- 3
- 46
- 5
- 38
-SVTCA[y-axis]
-CALL
-SHC[rp1]
-EndTTInstrs
 LayerCount: 2
 Fore
 Refer: 53 82 N 1 0 0 1 0 0 3
@@ -135880,18 +135105,6 @@ Encoding: 7800 7800 1711
 Width: 1479
 GlyphClass: 2
 Flags: W
-TtInstrs:
-PUSHB_5
- 2
- 1
- 38
- 5
- 38
-SVTCA[y-axis]
-CALL
-SHC[rp1]
-SHC[rp1]
-EndTTInstrs
 LayerCount: 2
 Fore
 Refer: 56 85 N 1 0 0 1 0 0 3
@@ -135915,20 +135128,6 @@ Encoding: 7802 7802 1713
 Width: 1479
 GlyphClass: 2
 Flags: W
-TtInstrs:
-PUSHB_6
- 3
- 2
- 1
- 56
- 5
- 38
-SVTCA[y-axis]
-CALL
-SHC[rp1]
-SHC[rp1]
-SHC[rp1]
-EndTTInstrs
 LayerCount: 2
 Fore
 Refer: 56 85 N 1 0 0 1 0 0 3
@@ -141679,15 +140878,6 @@ Encoding: 8172 8172 1958
 Width: 1451
 GlyphClass: 2
 Flags: W
-TtInstrs:
-PUSHB_3
- 2
- 31
- 4
-SVTCA[y-axis]
-MIAP[rnd]
-SHC[rp1]
-EndTTInstrs
 LayerCount: 2
 Fore
 Refer: 51 80 N 1 0 0 1 200 0 2
